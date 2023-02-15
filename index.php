@@ -25,9 +25,9 @@ Omschrijving: de startpagina van de portfolio website van Jason van Hamond
         ?>
         <main>
             <article id="welcome">
-                <h1>
+                <h2>
                     Welkom
-                </h1>
+                </h2>
                 <p>
                     Welkom op mijn portfolio website. Deze website is bedoeld om mensen meer over mij weten te laten komen. Op deze
                     website kan je veel informatie over mij vinden, zoals: wie ik ben, mijn opleidingen, mijn werkervaring, mijn
@@ -50,11 +50,8 @@ Omschrijving: de startpagina van de portfolio website van Jason van Hamond
                 </p>
             </article>
         </main>
-        <footer>
-            <p>
-                &copy; Jason van Hamond
-            </p>
-        </footer>
+        <?php
+        include "includes/footer.php";
+        ?>
     </body>
-
 </html>

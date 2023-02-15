@@ -29,9 +29,9 @@ Omschrijving:
             include "../../includes/knowledgeMenu.php";
             ?>
             <article>
-                <h1>
+                <h2>
                     Informatie pagina
-                </h1>
+                </h2>
                 <p>
                     Op deze pagina staat mijn werkervaring met de link naar de website van dat bedrijf. Ik heb zelf niet heel veel werkervaring maar ik help vaak mijn familie mee met hun bedrijven.
                 </p>
@@ -69,7 +69,7 @@ Omschrijving:
                 <p>
                     Bij het bezoeken van de volgende pagina zijn al mijn gemaakte projecten binnen dit bedrijf te zien.
                 </p>
-                <a href="/PortfolioWebsite/Projects/Sition/projects.html">
+                <a href="/PortfolioWebsite/Projects/Sition/projects.php">
                     Mijn projecten
                 </a>
             </article>
@@ -208,11 +208,9 @@ Omschrijving:
                 Website
             </a>
         </main>
-        <footer>
-            <p>
-                &copy; Jason van Hamond
-            </p>
-        </footer>
+        <?php
+        include "../../includes/footer.php";
+        ?>
     </body>
 
 </html>

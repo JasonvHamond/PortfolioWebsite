@@ -26,9 +26,9 @@ Omschrijving: HTML bestand pagina contact
         ?>
         <main>
             <article>
-                <h1>
+                <h2>
                     Informatie pagina
-                </h1>
+                </h2>
                 <p>
                     Op deze pagina staan mijn contact gegevens, als u contact met mij wilt krijgen dan kan dat met de volgende informatie
                 </p>
@@ -89,18 +89,16 @@ Omschrijving: HTML bestand pagina contact
                 </h3>
                 <ul>
                     <li>
-                        <span>Twitter</span>: <br>
+                        <span>LinkedIn</span>: <br>
                         <br>
-                        <a href="https://twitter.com/JasHam16" target="_blank">@JasHam16</a>
+                        <a href="https://www.linkedin.com/in/jason-van-hamond-62a194254/" target="_blank">Jason van Hamond</a>
                     </li>
                 </ul>
             </article>
         </main>
-        <footer>
-            <p>
-                &copy; Jason van Hamond
-            </p>
-        </footer>
+        <?php
+        include "includes/footer.php";
+        ?>
     </body>
 
 </html>

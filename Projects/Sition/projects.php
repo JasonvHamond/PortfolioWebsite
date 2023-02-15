@@ -7,87 +7,15 @@
          </title>
          <meta charset="utf-8">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link href="/styles/style.css" rel="stylesheet">
-         <link href="/styles/hobbyContact.css" rel="stylesheet">
-         <script src="/scripts/script.js" defer></script>
+         <link href="/PortfolioWebsite/styles/style.css" rel="stylesheet">
+         <link href="/PortfolioWebsite/styles/hobbyContact.css" rel="stylesheet">
+         <script src="/PortfolioWebsite/scripts/script.js" defer></script>
     </head>
     <body>
-        <header>
-            <h1 id="pageName">
-                Projecten Sition
-            </h1>
-        </header>
-        <nav id="nav">
-            <ul id="navItem">
-                <li>
-                    <a href="/index.html" id="home">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="/opleidingen.html" id="studies">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="/werk.html" id="jobs">
-            
-                    </a>
-                </li>
-                <li>                        
-                    <a href="/hobby's.html" id="hobby">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="/cv.html" id="cv">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="/contact.html" id="contact">
-            
-                    </a>
-                </li>
-                <li id="hidden">
-                    <a href="#" id="dropdown">
-                        Menu
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="/index.html" class="hide">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/opleidingen.html" class="hide">
-                                Opleidingen
-                            </a>
-                        </li>
-                        <li>
-                            <a href= "/werk.html" class="hide">
-                                Werkervaring
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/hobby's.html" class="hide">
-                                Hobby's
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/cv.html" class="hide">
-                                CV
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/contact.html" class="hide">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>    
-        </nav>
+        <?php
+        $pageName = "Projecten Sition";
+        include "../../includes/header.php"; 
+        ?>
         <main>
             <article>
                 <h2>
@@ -106,8 +34,8 @@
                     <br>
                     De eerste training was het leren kennen van de storefront editor en daarna een eigen plugin te maken waar je in de footer een lijst met (willekeurig gegenereerde) bedrijven. Voor de generering van data heb ik gewerkt met een extensie van Shopware waarmee willekeurige data wordt aangemaakt. 
                 </p>
-                <img src="/images/ShopwareDevTraining.jpg" alt="Shopware Developer Training Results" width="100%">
-                <img src="/images/ShopwareDevTraining2.jpg" alt="Shopware Developer Training Results" width="100%">
+                <img src="/PortfolioWebsite/images/ShopwareDevTraining.jpg" alt="Shopware Developer Training Results" width="100%">
+                <img src="/PortfolioWebsite/images/ShopwareDevTraining2.jpg" alt="Shopware Developer Training Results" width="100%">
             </article>
             <article>
                 <h3>
@@ -119,7 +47,7 @@
                     Om het een challenge te maken had ik besloten een videobanner CMS Block te maken, dit lijkt heel simpel, maar met de Shopware plugins is het iets meer geavanceerd dan het lijkt. In deze plugin kan de gebruiker een Youtube video ID opgeven om een video te laden bovenaan een pagina.
                 </p>
                 <video controls muted width="100%">
-                    <source src="/images/EigenTraining-Shopware-Plugin.mp4" type="video/mp4">
+                    <source src="/PortfolioWebsite/images/EigenTraining-Shopware-Plugin.mp4" type="video/mp4">
                     Je browser kan geen video's weergeven
                 </video>
                 <p>
@@ -140,7 +68,7 @@
                     Het element dat ik heb gemaakt is ongeveer hetzelfde als het block dat ik heb gemaakt, het verschil is dat je bij het element een eigen titel aan kan geven om dit te weergeven in de banner. Dit zorgt voor een effect van een pagina titel met een bewegende achtergrond.
                 </p>
                 <video controls muted width="100%">
-                    <source src="/images/EigenTraining-Shopware-Config.mp4" type="video/mp4">
+                    <source src="/PortfolioWebsite/images/EigenTraining-Shopware-Config.mp4" type="video/mp4">
                     Je browser kan geen video's weergeven
                 </video>
                 <p>
@@ -148,10 +76,8 @@
                 </p>
             </article>
         </main>
-        <footer>
-            <p>
-                &copy; Jason van Hamond
-            </p>
-        </footer>
+        <?php
+        include "../../includes/footer.php";
+        ?>
     </body>
 </html>

@@ -30,9 +30,9 @@ Omschrijving: HTML bestand voor de pagina Opleidingen
             include "../../includes/knowledgeMenu.php";
             ?>
             <article>
-                <h1>
+                <h2>
                     Informatie pagina
-                </h1>
+                </h2>
                 <p>
                     Op deze pagina geef ik mijn opleidingen aan die ik heb afgerond na de basisschool. Daarbij staan ook mijn ervaringen vermeldt met de gegevens van de school.
                 </p>
@@ -122,11 +122,9 @@ Omschrijving: HTML bestand voor de pagina Opleidingen
                 </p>
             </article>
         </main>
-        <footer>
-            <p>
-                &copy; Jason van Hamond
-            </p>
-        </footer>
+        <?php
+        include "../../includes/footer.php";
+        ?>
     </body>
 
 </html>

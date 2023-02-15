@@ -26,9 +26,9 @@ Omschrijving: HTML bestand voor de CV pagina
         ?>
         <main>
             <article>
-                <h1>
+                <h2>
                     Informatie pagina
-                </h1>
+                </h2>
                 <p>
                     Op deze pagina is mijn CV te vinden. Er staat ook een link bij om hem te openen in google drive, waar u het ook kunt downloaden. Als het niet goed te lezen is op telefoon kunt u hem altijd het beste daarmee openen.
                 </p>
@@ -42,11 +42,9 @@ Omschrijving: HTML bestand voor de CV pagina
                 <a href="https://drive.google.com/file/d/1Vqo1uiz669VVYkUT3ssAHKM0nJifh4dA/view?usp=sharing" target="_blank">Download CV</a>
             </article>
         </main>
-        <footer>
-            <p>
-                &copy; Jason van Hamond
-            </p>
-        </footer>
+        <?php
+        include "includes/footer.php";
+        ?>
     </body>
 
 </html>

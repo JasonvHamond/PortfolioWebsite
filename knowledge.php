@@ -20,5 +20,9 @@
             include "includes/knowledgeMenu.php";
             ?>
         <main>
+
+        <?php
+        include "includes/footer.php";
+        ?>
     </body>
 </html>

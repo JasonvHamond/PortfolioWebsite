@@ -19,5 +19,9 @@
             include "includes/interestMenu.php";
             ?>
         <main>
+
+        <?php
+        include "includes/footer.php";
+        ?>
     </body>
 </html>

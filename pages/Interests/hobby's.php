@@ -30,9 +30,9 @@ Omschrijving: HTML bestand voor de pagina hobby's
             include "../../includes/interestMenu.php";
             ?>
             <article>
-                <h1>
+                <h2>
                     Informatie pagina
-                </h1>
+                </h2>
                 <p>
                     In deze pagina staan mijn hobby's en vaardigheden. Bij een paar hobby's heb ik er mijn favorieten van dat onderwerp erbij gezet. Hierboven staat een menu voor als er iets je intereseert.
                 </p>
@@ -42,7 +42,7 @@ Omschrijving: HTML bestand voor de pagina hobby's
                     Games
                 </h2>
                 <p>
-                    In mijn vrije tijd speel ik meeste van de tijd games, ik game vooral op de Nintendo Switch, maar soms ook op de 3DS, GameCube, Playstation, etc. Vaak speel ik de games alleen, soms ook met andere mensen. Ik heb bijna alle Nintendo consoles sinds de Nintendo 64. Hier staat een lijst met games die ik het meest speel:
+                    In mijn vrije tijd speel ik meeste van de tijd games, ik game vooral op de Nintendo Switch, maar soms ook op de 3DS, GameCube, Wii (U), etc. Vaak speel ik de games alleen, soms ook met andere mensen. Ik heb bijna alle Nintendo consoles sinds de Nintendo 64. Hier staat een lijst met games die ik het meest speel:
                 </p>
                 <ol>
                     <li>
@@ -76,7 +76,7 @@ Omschrijving: HTML bestand voor de pagina hobby's
                 </p>
                 <ol>
                     <li>
-                        Venom
+                        Princess Mononoke
                     </li>
                     <li>
                         Guardians o/t Galaxy 2
@@ -89,20 +89,10 @@ Omschrijving: HTML bestand voor de pagina hobby's
                     </li>
                 </ol>
             </article>
-            <article id="planning">
-                <h2>
-                    Planning
-                </h2>
-                <p>
-                    Dit is een vaardigheid van mij, persoonlijk denk ik dat ik best goed kan plannen. Een paar jaar geleden kon ik niet goed planningen maken, maar sinds dat iemand mij ermee heeft geholpen ben ik er nu best goed in. Ik merk nu met dit project dat ik de bepaalde opdrachten goed heb verdeeld sinds ik met de vorige pagina's op mijn gemak heb kunnen maken.
-                </p>
-            </article>
         </main>
-        <footer>
-            <p>
-                &copy; Jason van Hamond
-            </p>
-        </footer>
+        <?php
+        include "../../includes/footer.php";
+        ?>
     </body>
 
 </html>
