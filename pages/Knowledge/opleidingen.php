@@ -14,90 +14,21 @@ Omschrijving: HTML bestand voor de pagina Opleidingen
         </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/style.css" rel="stylesheet">
-        <link href="styles/opleidingenwerk.css" rel="stylesheet">
-        <script src="scripts/script.js" defer></script>
-        <script src="scripts/opleidingen.js" defer></script>
+        <link href="/PortfolioWebsite/styles/style.css" rel="stylesheet">
+        <link href="/PortfolioWebsite/styles/opleidingenwerk.css" rel="stylesheet">
+        <script src="/PortfolioWebsite/scripts/script.js" defer></script>
+        <script src="/PortfolioWebsite/scripts/opleidingen.js" defer></script>
     </head>
     
     <body>
-        <header>
-            <h1 id="pageName">
-                Opleidingen
-            </h1>
-        </header>
-        <nav id="nav">
-            <ul id="navItem">
-                <li>
-                    <a href="index.html" id="home">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="opleidingen.html" id="studies">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="werk.html" id="jobs">
-            
-                    </a>
-                </li>
-                <li>                        
-                    <a href="hobby's.html" id="hobby">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="cv.html" id="cv">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html" id="contact">
-            
-                    </a>
-                </li>
-                <li id="hidden">
-                    <a href="#" id="dropdown">
-                        Menu
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="index.html" class="hide">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="opleidingen.html" class="hide">
-                                Opleidingen
-                            </a>
-                        </li>
-                        <li>
-                            <a href= "werk.html" class="hide">
-                                Werkervaring
-                            </a>
-                        </li>
-                        <li>
-                            <a href="hobby's.html" class="hide">
-                                Hobby's
-                            </a>
-                        </li>
-                        <li>
-                            <a href="cv.html" class="hide">
-                                CV
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="hide">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>    
-        </nav>
+        <?php
+            $pageName = "Opleidingen";
+            include "../../includes/header.php";
+        ?>
         <main>
+            <?php
+            include "../../includes/knowledgeMenu.php";
+            ?>
             <article>
                 <h1>
                     Informatie pagina
@@ -131,7 +62,7 @@ Omschrijving: HTML bestand voor de pagina Opleidingen
                     Dit was een goede school en de docenten waren aardig, dus ik kon daar vaak goed mee opschieten. Er waren soms ook wat minder goede docenten die niet goed les konden geven en docenten die niet aardig waren. Op deze school had ik soms ook wel gehoord dat sommige docenten oneerlijk tegen mensen deden of mensen raar behandelden. Enige keer dat ik moest nablijven was dat ik per ongeluk iemand ergens mee raakte tijdens de les.
                 </p>
             </article>
-            <img src="images/dOultremontcollege_gebouw.jpg" alt="gebouw d'Oultremontcollege" class="building">
+            <img src="/PortfolioWebsite/images/dOultremontcollege_gebouw.jpg" alt="gebouw d'Oultremontcollege" class="building">
             <a href="https://doultremontcollege.nl/contact/" target="_blank" class="web">Website</a>
             <article>
                 <h2>
@@ -180,7 +111,7 @@ Omschrijving: HTML bestand voor de pagina Opleidingen
                 </tfoot>
             </table>
             </article>
-            <img src="images/KW1Cingang.jpg" alt="gebouw KW1C" class="building">
+            <img src="/PortfolioWebsite/images/KW1Cingang.jpg" alt="gebouw KW1C" class="building">
             <a href="https://www.kw1c.nl/" target="_blank" class="web">Website</a>
             <article>
                 <h2>

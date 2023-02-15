@@ -14,89 +14,20 @@ Omschrijving:
         </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/style.css" rel="stylesheet">
-        <link href="styles/opleidingenwerk.css" rel="stylesheet">
-        <script src="scripts/script.js" defer></script>
+        <link href="/PortfolioWebsite/styles/style.css" rel="stylesheet">
+        <link href="/PortfolioWebsite/styles/opleidingenwerk.css" rel="stylesheet">
+        <script src="/PortfolioWebsite/scripts/script.js" defer></script>
     </head>
     
     <body>
-         <header>
-            <h1 id="pageName">
-                Werkervaring
-            </h1>
-        </header>
-        <nav id="nav">
-            <ul id="navItem">
-                <li>
-                    <a href="index.html" id="home">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="opleidingen.html" id="studies">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="werk.html" id="jobs">
-            
-                    </a>
-                </li>
-                <li>                        
-                    <a href="hobby's.html" id="hobby">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="cv.html" id="cv">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html" id="contact">
-            
-                    </a>
-                </li>
-                <li id="hidden">
-                    <a href="#" id="dropdown">
-                        Menu
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="index.html" class="hide">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="opleidingen.html" class="hide">
-                                Opleidingen
-                            </a>
-                        </li>
-                        <li>
-                            <a href= "werk.html" class="hide">
-                                Werkervaring
-                            </a>
-                        </li>
-                        <li>
-                            <a href="hobby's.html" class="hide">
-                                Hobby's
-                            </a>
-                        </li>
-                        <li>
-                            <a href="cv.html" class="hide">
-                                CV
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="hide">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>    
-        </nav>
+        <?php
+            $pageName = "Werkervaring";
+            include "../../includes/header.php";
+        ?>
         <main>
+            <?php
+            include "../../includes/knowledgeMenu.php";
+            ?>
             <article>
                 <h1>
                     Informatie pagina
@@ -138,11 +69,11 @@ Omschrijving:
                 <p>
                     Bij het bezoeken van de volgende pagina zijn al mijn gemaakte projecten binnen dit bedrijf te zien.
                 </p>
-                <a href="/Projects/Sition/projects.html">
+                <a href="/PortfolioWebsite/Projects/Sition/projects.html">
                     Mijn projecten
                 </a>
             </article>
-            <img src="images/sitionLogo.png" alt="Logo Sition" id="sitionLogo">
+            <img src="/PortfolioWebsite/images/sitionLogo.png" alt="Logo Sition" id="sitionLogo">
             <a href="https://www.sition.nl/" target="_blank" class="web">
                 Website
             </a>
@@ -174,7 +105,7 @@ Omschrijving:
                     Bij MediaMarkt Den Bosch ben ik in Augustus 2022 gestart als verkoper op de computerafdeling. Sinds het verkopen niet veel bij mij pastte, ben ik na een maand naar kassa verplaatst. Tot het heden werk ik bij kassa en zoals mijn eerste contractverlenging eruit ziet ga ik hier nog zeker een tijdje door kunnen werken.
                 </p>
             </article>
-            <img src="/images/mediamarkt.png" alt="MediaMarkt logo">
+            <img src="/PortfolioWebsite/images/mediamarkt.png" alt="MediaMarkt logo">
             <a href="https://www.mediamarkt.nl/" target="_blank" class="web">
                 Website
             </a>
@@ -206,7 +137,7 @@ Omschrijving:
                     Dit is het eerste bedrijf waar ik een echte meeloopstage heb uitgevoerd. Ik heb bij dit bedrijf stage gelopen van Augustus 2021 tot februari 2022.
                 </p>
             </article>
-            <img src="images/isadesignlogo.png" alt="isadesign logo">
+            <img src="/PortfolioWebsite/images/isadesignlogo.png" alt="isadesign logo">
             <a href="#" target="_blank" class="web">
                 Website
             </a>
@@ -239,7 +170,7 @@ Omschrijving:
                 </p>
             </article>
             <!-- afbeelding gebouw van Hamond, staat niet in een figure omdat het geen bijschrift nodig heeft -->
-            <img src="images/vanHamondvof.png" alt="gebouw van Hamond" class="building">
+            <img src="/PortfolioWebsite/images/vanHamondvof.png" alt="gebouw van Hamond" class="building">
             <a href="https://avanhamond.nl/" target="_blank" class="web">
                 Website
             </a>
@@ -272,7 +203,7 @@ Omschrijving:
                 </p>
             </article>
             <!-- afbeelding logo Staal en Design -->
-            <img src="images/Staal_en_Design.png" alt="logo Staal en Design" id="logo">
+            <img src="/PortfolioWebsite/images/Staal_en_Design.png" alt="logo Staal en Design" id="logo">
             <a href="https://www.staalendesign.nl/" target="_blank" id="marginA">
                 Website
             </a>

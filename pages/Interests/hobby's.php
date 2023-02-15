@@ -14,91 +14,21 @@ Omschrijving: HTML bestand voor de pagina hobby's
         </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/style.css" rel="stylesheet">
-        <link href="styles/hobbyContact.css" rel="stylesheet">
-        <script src="scripts/hobby.js" defer></script>
-        <script src="scripts/script.js" defer></script>
+        <link href="/PortfolioWebsite/styles/style.css" rel="stylesheet">
+        <link href="/PortfolioWebsite/styles/hobbyContact.css" rel="stylesheet">
+        <script src="/PortfolioWebsite/scripts/hobby.js" defer></script>
+        <script src="/PortfolioWebsite/scripts/script.js" defer></script>
     </head>
     
     <body>
-         <header>
-            <h1 id="pageName">
-                Hobby's
-            </h1>
-            </header>
-            <nav>
-                <ul id="navItem">
-                    <li>
-                        <a href="index.html" id="home">
-                
-                        </a>
-                    </li>
-                    <li>
-                        <a href="opleidingen.html" id="studies">
-                
-                        </a>
-                    </li>
-                    <li>
-                        <a href="werk.html" id="jobs">
-                
-                        </a>
-                    </li>
-                    <li>                        
-                        <a href="hobby's.html" id="hobby">
-                
-                        </a>
-                    </li>
-                    <li>
-                        <a href="cv.html" id="cv">
-                
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.html" id="contact">
-                
-                        </a>
-                    </li>
-                    <li id="hidden">
-                        <a href="#" id="dropdown">
-                            Menu
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="index.html" class="hide">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="opleidingen.html" class="hide">
-                                    Opleidingen
-                                </a>
-                            </li>
-                            <li>
-                                <a href= "werk.html" class="hide">
-                                    Werkervaring
-                                </a>
-                            </li>
-                            <li>
-                                <a href="hobby's.html" class="hide">
-                                    Hobby's
-                                </a>
-                            </li>
-                            <li>
-                                <a href="cv.html" class="hide">
-                                    CV
-                                </a>
-                            </li>
-                            <li>
-                                <a href="contact.html" class="hide">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>    
-            </nav>
-        </header>
+    <?php
+            $pageName = "Hobby's";
+            include "../../includes/header.php";
+        ?>
         <main>
+            <?php
+            include "../../includes/interestMenu.php";
+            ?>
             <article>
                 <h1>
                     Informatie pagina

@@ -20,83 +20,10 @@ Omschrijving: HTML bestand pagina contact
     </head>
     
     <body>
-        <header>
-            <h1 id="pageName">
-                Contact
-            </h1>
-            
-        </header>
-        <nav id="nav">
-            <ul id="navItem">
-                <li>
-                    <a href="index.html" id="home">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="opleidingen.html" id="studies">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="werk.html" id="jobs">
-            
-                    </a>
-                </li>
-                <li>                        
-                    <a href="hobby's.html" id="hobby">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="cv.html" id="cv">
-            
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html" id="contact">
-            
-                    </a>
-                </li>
-                <li id="hidden">
-                    <a href="#" id="dropdown">
-                        Menu
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="index.html" class="hide">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="opleidingen.html" class="hide">
-                                Opleidingen
-                            </a>
-                        </li>
-                        <li>
-                            <a href= "werk.html" class="hide">
-                                Werkervaring
-                            </a>
-                        </li>
-                        <li>
-                            <a href="hobby's.html" class="hide">
-                                Hobby's
-                            </a>
-                        </li>
-                        <li>
-                            <a href="cv.html" class="hide">
-                                CV
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="hide">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>    
-        </nav>
+    <?php
+            $pageName = "Contact";
+            include "includes/header.php";
+        ?>
         <main>
             <article>
                 <h1>

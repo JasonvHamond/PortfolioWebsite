@@ -47,6 +47,18 @@ header, nav, footer
     font-family: "Quicksand";
 }
 
+#secondMenu
+{
+    display: flex;
+    background-color: #2c2c2c;
+
+}
+
+#secondMenu li
+{
+    list-style-type: none;
+}
+
 /* aanpassingen tekst elementen */
 h1
 {
@@ -275,20 +287,3 @@ footer p
         margin: 0;
     }
 }
-
-/* positie van dropdown instellen
-@media screen and (min-width:1000px) and (max-width:1500px)
-{
-    .hide 
-    {
-        left: 10%;
-    }
-}
-
-@media screen and (min-width:500px) and (max-width:1000px)
-{
-    .hide
-    {
-        left:5%;
-    }
-} */
