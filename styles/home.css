@@ -1,0 +1,48 @@
+/*
+Auteur:       Jason van Hamond
+Aanmaakdatum: 14-12-2020 12:19
+
+Omschrijving: de CSS bestand voor de homepagina van de portfolio website van Jason van Hamond
+*/
+
+/* aanpassingen in de articles */
+article
+{
+    position: relative;
+    left: 5%;
+    width: 40%;
+    text-align: center;
+    z-index: 0;
+}
+
+/* aanpassingen in de afbeeldingen */
+#jason
+{
+    width: 20%;
+    padding: 20px;
+    float: right;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* veranderingen voor telefoon */
+@media screen and (orientation:portrait)
+{
+    article, jason
+    {
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    article
+    {
+        width: 80%;
+    }
+    
+    #jason
+    {
+        float: none;
+        width:200px;
+    }
+}

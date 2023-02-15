@@ -1,0 +1,112 @@
+/*
+Auteur:       Jason van Hamond
+Aanmaakdatum: 21-12-2020 11:35
+
+Omschrijving: de CSS bestand voor de homepagina van de portfolio website van Jason van Hamond
+*/
+
+/* article in het midden krijgen en breedte aanpassen */
+article
+{
+    margin-left: 20%;
+    width: 40%;
+}
+
+/* aanpassingen afbeeldingen */
+img
+{
+    padding: 10px;
+    border-radius: 10px;
+    float:right;
+}
+
+#sitionLogo 
+{
+    width: 20%;
+}
+
+.building
+{
+    width: 20%;
+}
+
+#logo
+{
+    width: 10%;
+}
+
+.web, #marginA
+{
+    float:right;
+}
+
+.excercise
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+figcaption
+{
+    margin-bottom: 20px;
+}
+
+@media screen and (orientation:portrait)
+{
+    article, .building, .web, #logo, #marginA
+    {
+        margin: 10px;
+    }
+    
+    article
+    {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    article h1, article h2, article h3
+    {
+        text-align: center;
+    }
+    
+    #marginArticle
+    {
+        margin-bottom: 10px;
+    }
+    
+    article ul li
+    {
+        list-style-position: inside;
+        margin-left: -50px;
+    }
+    
+    .building
+    {
+        float: left;
+        width: 90%;
+    }
+
+    article + img 
+    {
+        float: left!important;
+        width: 96vw!important;
+        margin:0!important;
+    }
+    
+    .web, #marginA
+    {
+        text-align: center;
+        width: 95%;
+        height: 40px;
+    }
+    
+    #marginA
+    {
+        margin-bottom: 70px;
+    }
+    
+    header, footer
+    {
+        width: 100%;
+    }
+}

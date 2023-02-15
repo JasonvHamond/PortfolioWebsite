@@ -1,0 +1,29 @@
+/* 
+Auteur:       Jason van Hamond
+Aanmaakdatum: 4-1-2021 12:47
+
+Omschrijving: CSS bestand voor CV pagina
+*/
+
+/* veranderingen in article */
+article
+{
+    margin-left: 30%;
+    width: 36%;
+}
+
+/* veranderingen in images */
+img
+{
+    width: 95%;
+}
+
+/* veranderingen voor de telefoon */
+@media screen and (orientation:portrait)
+{
+    article
+    {
+        width:80%;
+        margin-left: 20px;
+    }
+}

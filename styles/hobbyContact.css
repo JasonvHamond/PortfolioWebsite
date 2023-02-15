@@ -1,0 +1,58 @@
+/* 
+Auteur:       Jason van Hamond
+Aanmaakdatum: 27-12-2020 10:02
+
+Omschrijving: CSS bestand voor Hobby's en Contact pagina
+*/
+
+/* aanpassingen in article */
+
+article
+{
+    width: 50%;
+    margin-left: 20%;
+}
+
+article ul 
+{
+    padding:0;
+}
+
+li > span
+{
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+#contactInfo li
+{
+    text-align: center;
+    list-style-type: none;
+}
+
+/* veranderingen voor een kleinere scherm */
+@media screen and (max-width:1500px)
+{    
+    .email
+    {
+        list-style-position: inside;
+        right: 50px;
+    }
+    
+    article ul li
+    {
+        position: relative;
+        right: 30px;
+    }
+}
+
+/* veranderingen voor telefoon */
+@media screen and (orientation:portrait)
+{
+    
+    article
+    {
+        width: 80%;
+        margin-left: 20px;
+    }
+}

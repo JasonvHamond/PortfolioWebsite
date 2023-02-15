@@ -1,0 +1,294 @@
+/* 
+Auteur:       Jason van Hamond
+Aanmaakdatum: 14-12-2020 11:40
+
+Omschrijving: de algemene CSS bestand van de portfolio website van Jason van Hamond
+*/
+
+:root {
+    --HeaderColour: #181818;
+    --BodyColour: rgb(99, 93, 99);
+    --SectionColour: rgb(42, 42, 42);
+    --TextColour: rgb(165, 255, 107);
+    --TitleColour: rgb(212, 13, 219);
+    --NavBackground: #0f0f0f;
+    --AHoverBackground: black;
+}
+
+/* font-family toevoegen */
+@font-face
+{
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+    font-family: "Quicksand"
+}
+
+/* aanpassingen body */
+body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--BodyColour);
+}
+
+/* gezamelijke aanpassingen */
+article, footer, a, img, button
+{
+    background-color: var(--SectionColour);
+}
+
+article:last-of-type 
+{
+    margin-bottom: 70px;
+}
+
+header, nav, footer
+{
+    font-family: "Quicksand";
+}
+
+/* aanpassingen tekst elementen */
+h1
+{
+    font-size: 33px;
+}
+
+h2
+{
+    font-size: 28px;
+}
+
+h3
+{
+    font-size: 24px;
+}
+
+p, ul, ol, a, figcaption
+{
+    font-size: 20px;
+    color: var(--TextColour);
+}
+
+h1, h2, h3, a
+{
+    color: var(--TitleColour);
+}
+
+/* aanpassingen header */
+header
+{
+    padding: 5px 0px;
+    background-color: var(--HeaderColour);
+}
+
+#pageName
+{
+    position: relative;
+    display: inline-block;
+    left: 2%;
+    text-align: center;
+}
+
+#navItem
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+ul li a 
+{
+    display: block;
+}
+
+nav 
+{
+    width: 100%;
+    display: block;
+    background-color: var(--NavBackground);
+    z-index: 999;
+}
+
+a
+{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+a:hover
+{
+    background-color: var(--AHoverBackground);
+}
+
+#hidden
+{
+    display: none;
+}
+
+/* aanpassingen in de main */
+article
+{
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+main
+{
+    font-family: "Arial";
+}
+
+table, td
+{
+    border: 5px solid rgb(99, 93, 99);
+    background-color: rgb(42, 42, 42);
+    color: rgb(165, 255, 107);
+    border-collapse:collapse;
+}
+
+article > h1, article > h2, article > h3
+{
+    text-align: center;
+}
+
+/*aanpassingen footer */
+footer
+{
+    color: rgb(94, 219, 13);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border: rgb(99, 93, 99) solid 1px;
+}
+
+footer p
+{
+    float: right;
+    margin-right: 10px;
+} 
+
+/* Sticky menu */
+.sticky 
+{
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+  
+.sticky + main 
+{
+    margin-top: 50px; 
+}
+
+/* het maken van een dropdown menu en de veranderingen voor een kleiner scherm. */
+@media screen and (max-width:1500px)
+{
+    #nav ul li, #nav ul li a
+    {
+        height: 27%;
+    }
+    #pageName
+    {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    #home, #studies, #jobs, #hobby, #cv, #contact
+    {
+        display: none;
+    }
+    
+    #hidden
+    {
+        display:flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    
+    #dropdown
+    {
+        width: 95vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .hide
+    {
+        width: 100vw;
+/* deze positioning heb ik hier gedaan, omdat het anders niet wilde werken */
+        position:relative;
+        z-index: 4;
+        border-radius: 0px;
+        margin:0;
+    }
+    
+    nav li
+    {
+        display: inline-block;
+        list-style-type: none;
+        position: relative;
+    }
+
+    nav li ul
+    {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav li:hover > ul 
+    {
+        display: block;
+    }
+
+    nav a 
+    {
+        padding: 5px 10px;
+        text-align: center;
+        height: 20px;
+        display: block;
+    }
+    
+    #navItem
+    {
+        left: 0px;
+        padding:0;
+    }
+    
+    footer, header
+    {
+       width: 100vw;
+    }
+}
+
+/* veranderingen voor telefoon */
+@media screen and (orientation:portrait)
+{
+    .hide
+    {
+        height: 40px;
+        margin: 0;
+    }
+}
+
+/* positie van dropdown instellen
+@media screen and (min-width:1000px) and (max-width:1500px)
+{
+    .hide 
+    {
+        left: 10%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:1000px)
+{
+    .hide
+    {
+        left:5%;
+    }
+} */
