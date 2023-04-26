@@ -34,13 +34,15 @@ Omschrijving: de startpagina van de portfolio website van Jason van Hamond
                     hobby's, mijn CV en hoe je met mij in contact kan komen. Er wordt tijdens mijn ontwikkeling nog aan deze website gewerkt, als er gevonden bugs of punten voor verbetering zijn, kan je contact opnemen met mij.
                 </p>
             </article>
-            <img src="images/jason.jpeg" alt="foto van mijzelf" id="jason">
+                <a href="/PortfolioWebsite/pages/Fun/Kirby.php">
+                    <img src="images/jason.jpeg" alt="foto van mijzelf" id="jason">
+                </a>
             <article id="aboutMe">
                 <h2>
                     Over Mij
                 </h2>
                 <p>
-                   Ik ben Jason van Hamond en ik ben geboren op 13 december 2003 in Sint-Michelsgestel en ik woon nu in Vlijmen, Noord-Brabant. Mijn interesse ligt vooral bij de ontwikkeling van electronica. Ik ben begonnen met de opleiding Software Developer, maar wil er aan werken om uiteindelijk AI te programmeren.
+                   Ik ben Jason van Hamond en ik ben geboren op 13 december 2003 in Sint-Michielsgestel en ik woon nu in Vlijmen, Noord-Brabant. Mijn interesse ligt vooral bij back-end development. Ik ben begonnen met de opleiding Software Developer, maar wil uiteindelijk AI programmeren.
                 </p>
                 <p>
                     Het liefst werk ik alleen, maar om samen te werken is ook geen groot probleem. Ik ben goed in het plannen van mijn activiteiten en kan het best functioneren bij een goede werkstructuur.

@@ -75,6 +75,83 @@
                     Ik had later nog het idee gekregen om ook een optie te geven om de titel ook nog te kunnen positioneren, alleen was dit iets te geavanceerd om te maken dan verwacht.
                 </p>
             </article>
+            <article>
+                <h3>
+                    Lookbook Plugin
+                </h3>
+                <p>
+                    Mijn eerste echte plugin dat ik heb gemaakt is de Lookbook Plugin, aan deze plugin heb ik een groot deel van mijn stage gewerkt.
+                    <br><br>
+                    In de Lookbook plugin kan je producten samen groeperen en samen weergeven op een pagina, zodat klanten de zogenaamde "looks" kunnen bekijken en bestellen.
+                </p>
+
+                <h4>
+                    Lookbook Listing
+                </h4>
+                <p>
+                    De Lookbook Listing page is een overzicht van alle Looks per categorie, in deze pagina kan je alle Looks wat bij geselecteerde categorie behoren bekijken, inclusief een bijbehoorende afbeelding, titel en omschrijving. Je kan deze blokken ook instellen om geen Titel en Omschrijving weer te geven.
+                </p>
+                <img src="/PortfolioWebsite/images/LookbookListing.png" alt="Lookbook Listing" width=" 100%">
+
+                <h4>
+                    Lookbook Slider
+                </h4>
+                <p>
+                    De Lookbook Slider is een element wat je in een pagina kan slepen. Dit element geeft alle Looks weer wat in de categoriepagina zijn geselecteerd.
+                </p>
+                <img src="/PortfolioWebsite/images/LookbookSlider.png" alt="Lookbook Slider" width="100%">
+
+                <h4>
+                    Lookbook Detail
+                </h4>
+                <p>
+                    De Lookbook Detail pages geven de afbeeldingen en producten weer wat in de geselecteerde lookbook opgeslagen staan. De detail page wordt normaal gesproken opgezet in de volgende elementen: 
+                    <ul>
+                        <li>
+                            Lookbok Detail Block:
+                            <ul>
+                                <li>
+                                    Lookbook Media Element
+                                </li>
+                                <li>
+                                    Lookbook Products Element
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Er zijn ook een aantal instellingen beschikbaar voor de Lookbook Detail Page:
+                </p>
+
+                <h5>
+                    Vertical Product-Layout
+                </h5>
+                <h6>
+                    Standard Variant-Layout
+                </h6>
+                <img src="/PortfolioWebsite/images/LookbookDetailVertStand.png" alt="Lookbook Detail Vertical Standard" width="100%">
+
+                <h6>
+                    Pop-up Variant-Layout
+                </h6>
+                <img src="/PortfolioWebsite/images/LookbookDetailVertPop1.png" alt="Lookbook Detail Vertical Pop-up closed" width="100%">
+                <img src="/PortfolioWebsite/images/LookbookDetailVertPop2.png" alt="Lookbook Detail Vertical Pop-up Open" width="100%">
+
+                <h5>
+                    Horizontal Product-Layout
+                </h5>
+                <h6>
+                    Standard Variant-Layout
+                </h6>
+                <img src="/PortfolioWebsite/images/LookbookDetailHorStand.png" alt="Lookbook Detail Horizontal Standard" width="100%">
+                
+                <h6>
+                    Pop-up Variant-Layout
+                </h6>
+                <img src="/PortfolioWebsite/images/LookbookDetailHorPop1.png" alt="Lookbook Detail Horizontal Pop-up Closed" width="100%">
+                <img src="/PortfolioWebsite/images/LookbookDetailHorPop2.png" alt="Lookbook Detail Horizontal Pop-up Open" width="100%">
+            </article>
         </main>
         <?php
         include "../../includes/footer.php";

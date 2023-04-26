@@ -90,7 +90,6 @@ Omschrijving: HTML bestand pagina contact
                 <ul>
                     <li>
                         <span>LinkedIn</span>: <br>
-                        <br>
                         <a href="https://www.linkedin.com/in/jason-van-hamond-62a194254/" target="_blank">Jason van Hamond</a>
                     </li>
                 </ul>
