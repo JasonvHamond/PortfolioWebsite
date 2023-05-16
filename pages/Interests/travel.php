@@ -34,6 +34,7 @@
                 <p>
                     De mooiste plek waar ik ben geweest was in Puerto Vallarta. Ik ben hier in juli 2022 met mijn vriendin op vakantie geweest, sinds zij daar dichtbij woont. Op deze plek heb ik niet veel foto's gemaakt sinds ik te veel aandacht voor mijn vriendin had, maar we hebben wel veel foto's van ons samen gemaakt.
                 </p>
+                <img src="/PortfolioWebsite/images/PuertoVallarta.png" alt="Puerto Vallarta" width="100%">
             </article>
             <article>
                 <h2>

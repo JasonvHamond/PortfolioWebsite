@@ -46,23 +46,6 @@ Omschrijving: HTML bestand pagina contact
                     </li>
                 </ul>
                 <h3>
-                    Adres
-                </h3>
-                <ul>
-                    <li>
-                        <span>Postcode</span>: <br>
-                        5251 PW
-                    </li>
-                    <li>
-                        <span>Huisnummer</span>: <br>
-                        Konijnenbergstraat 41
-                    </li>
-                    <li>
-                        <span>Woonplaats</span>: <br>
-                        Vlijmen
-                    </li>
-                </ul>
-                <h3>
                     Mail
                 </h3>
                 <ul>

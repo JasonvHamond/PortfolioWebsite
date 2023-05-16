@@ -23,7 +23,7 @@ Omschrijving: de startpagina van de portfolio website van Jason van Hamond
             $pageName = "Home";
             include "includes/header.php";
         ?>
-        <main>
+        <main class="nl" style="display:none;">
             <article id="welcome">
                 <h2>
                     Welkom
@@ -49,6 +49,33 @@ Omschrijving: de startpagina van de portfolio website van Jason van Hamond
                 </p>
                 <p>
                     Bij mijn werk zorg ik altijd dat ik voor een deadline klaar ben, als ik hier problemen bij heb zorg ik altijd dat het optijd wordt aangegeven.
+                </p>
+            </article>
+        </main>
+        <main class="en">
+            <article id="welcome">
+                <h2>
+                    Welcome
+                </h2>
+                <p>
+                    Welcome to my portfolio website. This website is meant for people who wish to learn more about me. On this website you can find your needed information about me, for example: Who am I?, my past experiences, my studies, hobbies, CV and how to get into contact with me. I am still working on this website while building my experience, so if there are any bugs or improvements, you can always let me know!
+                </p>
+            </article>
+                <a href="/PortfolioWebsite/pages/Fun/Kirby.php">
+                    <img src="images/jason.jpeg" alt="foto van mijzelf" id="jason">
+                </a>
+            <article id="aboutMe">
+                <h2>
+                    About me
+                </h2>
+                <p>
+                   I am Jason van Hamond and I was born on December 13th 2003 in Sint-Michielsgestel (Netherlands). Currently I live in Vlijmen, located in North-Brabant. I am interested in mostly back-end development. I started with the study Software Developer, but wish to eventually program AI instead.
+                </p>
+                <p>
+                    I prefer working alone, but working in a team is never a problem for me. I am especially good at planning my activities and can function the best when there is a good working-structure.
+                </p>
+                <p>
+                    I always make sure my work is always done far before a deadline, if I ever have problems with finishing my work I will always let it know on time.
                 </p>
             </article>
         </main>
